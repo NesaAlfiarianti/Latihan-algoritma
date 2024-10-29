@@ -1,0 +1,16 @@
+# Definisi fungsi dengan nama 'tambah'
+def tambah(a, b):
+    # Menghitung jumlah dari a dan b
+    hasil = a + b
+    # Mengembalikan hasil penjumlahan
+    return hasil
+
+# Mendefinisikan dua angka untuk dijumlahkan
+angka1 = 5  # Angka pertama
+angka2 = 3  # Angka kedua
+
+# Memanggil fungsi 'tambah' dengan angka1 dan angka2 sebagai argumen
+jumlah = tambah(angka1, angka2)
+
+# Mencetak hasil penjumlahan
+print("Jumlah:", jumlah)  # Output yang diharapkan: Jumlah: 8
